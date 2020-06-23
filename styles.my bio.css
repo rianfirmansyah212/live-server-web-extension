@@ -1,0 +1,76 @@
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+head {
+   font-size: large;
+}
+body {
+   font-family: 'Quicksand', sans-serif;
+   background-color: rgb(1, 36, 53);
+   box-shadow: 10px 10px 15px 40px rgba(0, 0, 0, 0.2);
+   border-radius: 20px;
+   padding: 10px 20px;
+   margin: 20px;
+   position: absolute;
+}
+header {
+    display: inline;
+    color: #012c1a93;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #1ea2c0;
+   border-radius: 30px;
+   text-align: center;
+   color: white;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+}
+#content {
+    background-color: sandybrown;
+    border-radius: 15px;
+    float: left;
+    width: 64%;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 2);
+    padding: 30px 20px 30px 20px;
+    margin: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.featured-image{
+    width: 100%;
+    border-radius: 20px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-color: red;
+}
+h2 {
+    color: #008b8b;
+}
+h3 {
+    color: #008b8b;
+}
+p {
+    font-size: 18px;
+    padding: 20px;
+    background-color: salmon;
+    border-radius: 10px;
+    text-align: left;
+}
+footer {
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    color: #022020;
+    background-color: #1ea2c0;
+}

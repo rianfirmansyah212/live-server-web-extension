@@ -1,0 +1,82 @@
+head {
+   font-size: large;
+}
+body {
+   font-family: 'Quicksand', sans-serif;
+   background-color: rgb(1, 36, 53);
+   box-shadow: 10px 10px 15px 40px rgba(0, 0, 0, 0.2);
+   border-radius: 20px;
+   padding: 10px 20px;
+   margin: 350px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   position: absolute;
+}
+header {
+    display: inline;
+    color: #012c1a93;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #1ea2c0;
+   border-radius: 30px;
+   text-align: center;
+   color: white;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+}
+#content {
+    background-color: sandybrown;
+    border-radius: 15px;
+    float: left;
+    width: 64%;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 2);
+    padding: 30px 20px 30px 20px;
+    margin: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav a{
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav a:hover{
+    font-weight: bold;
+}
+cite a {
+    color: teal;
+}
+.card {
+    background-color: #008b8b;
+    box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 2);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+ 
+    border-width: 2px;
+    border-color: red;
+    border-radius: 5px;
+    padding: 100px;
+    margin-top: 20px;
+    margin: 20px;
+    
+}
+footer {
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px;
+    color: #022020;
+    background-color: #1ea2c0;
+}
